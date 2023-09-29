@@ -1,0 +1,20 @@
+header {
+    font-family: fantasy;
+}
+
+* {
+    background-color: aliceblue;
+}
+
+#graphSvg{
+    height:300px;
+    wight:300px;
+}
+
+#divX {
+    width: 20%;
+}
+
+.error {
+    background-color: darkred;
+}
