@@ -32,18 +32,18 @@ $(document).ready(function () {
 
         let sending = true;
 
-        if (x == null || x < -5 || x > 3) {
-            document.getElementById("divX").classList.add('error');
+        if (x === "" || x < -5 || x > 3) {
+            document.getElementById("inputX").classList.add('error');
             sending = false;
         } else {
-            document.getElementById("divX").classList.remove('error');
+            document.getElementById("inputX").classList.remove('error');
         }
 
         if (!y) {
             document.getElementById("divY").classList.add('error');
             sending = false;
         } else {
-            document.getElementById("divX").classList.remove('error');
+            document.getElementById("divY").classList.remove('error');
         }
 
         if (!r) {

@@ -6,15 +6,37 @@ header {
     background-color: aliceblue;
 }
 
+input[type="button"]:hover{
+    background-color: fuchsia;
+}
+input[type="button"]:focus{
+    background-color: goldenrod;
+}
+
 #graphSvg{
     height:300px;
-    wight:300px;
+    width:300px;
 }
 
 #divX {
     width: 20%;
 }
+#divY {
+    width: 25%;
+}
+#divR {
+    width: 10%;
+}
+#divY>input{
+    margin-left: 2%;
+}
+
+#divR input{
+    margin-left: 2%;
+}
+
 
 .error {
     background-color: darkred;
 }
+
